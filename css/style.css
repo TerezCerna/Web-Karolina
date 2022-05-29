@@ -75,7 +75,7 @@ margin-right: 15px;
 	margin: 0 auto;	
 }
 
-.image_bio {
+.hero_image_biografie {
     width: 100%;
 }
 h1 {
@@ -134,6 +134,17 @@ td {
     border-bottom: 1px solid;
     padding: 5px;
 
+}
+.gallery_biografie {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    padding: 30px;
+}
+.foto_vystoupeni img {
+    width: 250px;
+    height: 150px;
+    object-fit: cover;
 }
 @media screen and (min-width: 600px) {
     .menu__toggler {

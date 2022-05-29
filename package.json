@@ -1,0 +1,24 @@
+{
+  "name": "web-karolina",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx @11ty/eleventy",
+    "serve": "npx @11ty/eleventy --serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TerezCerna/Web-Karolina.git"
+  },
+  "keywords": [],
+  "author": "Tereza Černá",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TerezCerna/Web-Karolina/issues"
+  },
+  "homepage": "https://github.com/TerezCerna/Web-Karolina#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^1.0.1"
+  }
+}

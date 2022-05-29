@@ -1,34 +1,17 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Biografie</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <nav class="menu">
+---
+layout: moje-sablona.njk
+title: Biografie
+---
 
-		<input type="checkbox" class="menu__checkbox" id="menu-checkbox">
-		<label for="menu-checkbox" class="menu__toggler">☰</label>
-        <div class="logo"> <a class="menu__link" href="#">KAROLÍNA</a></div>
-		<ul class="menu__list">
-			<li class="menu__item"><a class="menu__link" href="#">Úvod</a></li>
-			<li class="menu__item"><a class="menu__link" href="#">Biografie</a></li>
-			<li class="menu__item"><a class="menu__link" href="#">Vystoupení</a></li>
-			<li class="menu__item"><a class="menu__link" href="#">Kontakt</a></li>
-		</ul>
+<main> 
+    <img class="hero_image_biografie" src="/images/Karol_bio.JPG" alt="Karolína" />
+   
+    
 
-	    </nav>  
-    <img class="image_bio" src="images/Karol_bio.JPG" alt="Karolína" />
-    <h1>Biografie</h1>
+  <div class="biografie"> 
+   
+    <div class="content_biografie"> 
+        <h1>Biografie</h1>
     <p>
       Karolína Krausová, rozená Jägerová se narodila 13.7 1992 v Kraslicích. V
       roce 2000 se s rodiči přestěhovala z Chebu do Druztové u Plzně a 2012
@@ -75,8 +58,21 @@
       díle Něco shnilého a za zmínku stojí také titulní role Niny v muzikálu
       Píseň pro Ninu v projektu Intro 21.
     </p>
-    <footer> 
-        © 2022 Tereza Černá
-    </footer>
-  </body>
-</html>
+</div>
+
+<div class="gallery_biografie">
+    <div class="foto_vystoupeni"> <img  src="/images/predstaveni/ABJ1.jpg" alt=""></div>
+    <div class="foto_vystoupeni"> <img src="/images/predstaveni/Absolvent_1.jpg" alt="Absolvent"></div>
+    <div class="foto_vystoupeni"> <img src="/images/predstaveni/Adela_1.jpg" alt="Adéla ještě nevečeřela"></div>
+    <div class="foto_vystoupeni"> <img src="/images/predstaveni/Miluji_1.jpg" alt="Miluji tě, ale..."></div>
+    <div class="foto_vystoupeni"> <img src="/images/predstaveni/Nebez_vztahy_1.jpg" alt="Nebezpečné vztahy"></div>
+    <div class="foto_vystoupeni"> <img src="/images/predstaveni/RUR_1.jpg" alt="RUR"></div>
+    <div class="foto_vystoupeni"> <img src="/images/predstaveni/RUR_2.jpg" alt="RUR"></div>
+    <div class="foto_vystoupeni"> <img src="/images/predstaveni/RUR_3.jpg" alt="RUR"></div>
+</div> 
+</div>
+</main>
+   
+
+
+
