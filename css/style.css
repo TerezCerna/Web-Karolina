@@ -143,12 +143,14 @@ td {
     padding: 5px;
 
 }
-.gallery_biografie {
+/*
+.gallery {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
     padding: 30px;
 }
+*/
 .foto_vystoupeni img {
     width: 250px;
     height: 150px;
@@ -183,4 +185,5 @@ td {
         background-position: bottom;
         margin: auto;
     }
+
 }
