@@ -123,13 +123,16 @@ border: none;
     margin-bottom: 20px;
 }
 .table_vystoupeni{
-    width: 60%;
+    width: auto;
     table-layout: fixed;
     border-spacing: 10px;
-    margin: auto;
+    margin:auto;
+    border-collapse: collapse;
+   
   }
 .scrollable-table {
     overflow-x: auto;
+    padding: 0 40px 40px 40px;
 }
 th {
     border-bottom: 1px solid;
