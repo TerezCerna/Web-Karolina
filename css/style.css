@@ -5,16 +5,18 @@
 }
 .logo {
     color: white;
+    order: -1;
 }
 .menu__checkbox {
     position:absolute;
     left: -9999px;
+    justify-content: flex-end;
 }
 .menu__toggler {
     cursor: pointer;
     color: rgb(198, 128, 157);
-    padding-top: 15px;
-    justify-content: flex-end;
+    padding: 15px;
+    
 
 }
 .menu__list {
