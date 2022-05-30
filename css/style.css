@@ -126,6 +126,9 @@ border: none;
     border-spacing: 10px;
     margin: auto;
   }
+.scrollable-table {
+    overflow-x: auto;
+}
 th {
     border-bottom: 1px solid;
 
@@ -170,7 +173,9 @@ td {
     .main {
         background-image: url(/images/Karol_uvod_large.JPG);
         background-size: cover;
-        width: 100%;
-        margin: auto;	
+        width: 100%;	
+        height: 100vh;
+        background-position: bottom;
+        margin: auto;
     }
 }
