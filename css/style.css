@@ -126,9 +126,7 @@ border: none;
     width: auto;
     table-layout: fixed;
     border-spacing: 10px;
-    margin:auto;
-    border-collapse: collapse;
-   
+    margin:auto;  
   }
 .scrollable-table {
     overflow-x: auto;
@@ -143,19 +141,42 @@ td {
     padding: 5px;
 
 }
-/*
+
 .gallery {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    padding: 30px;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(16, 1fr);
+    justify-items: center;
+    margin-bottom: 20px;
 }
-*/
-.foto_vystoupeni img {
+.gallery_item img {
     width: 250px;
     height: 150px;
     object-fit: cover;
+    padding: 10px;
 }
+.gallery_item_font {
+    font-size: 10px;
+    text-decoration: none;
+    color: black;
+    
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+.footer_icons {
+    display: flex;
+    color: white;
+    padding-left: 50px;
+}
+.footer_signature {
+    align-self: center;
+    padding-right: 50px;
+    font-family: 'Amatic SC', cursive;
+}
+
+
 @media screen and (min-width: 480px) {
     .menu__toggler {
         display: none;
@@ -174,6 +195,13 @@ td {
         width: 100%;
         margin: auto;	
     }
+    .gallery {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(8, 1fr);
+        justify-items: center;
+        margin-bottom: 20px;
+    }
 }
 
 @media screen and (min-width: 770px) {
@@ -185,5 +213,13 @@ td {
         background-position: bottom;
         margin: auto;
     }
+   
+    .gallery {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        padding: 30px;
+}
+
 
 }
