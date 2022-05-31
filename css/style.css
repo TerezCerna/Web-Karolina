@@ -167,13 +167,15 @@ td {
 }
 .footer_icons {
     display: flex;
-    color: white;
+    color: whitesmoke;
     padding-left: 50px;
 }
 .footer_signature {
     align-self: center;
     padding-right: 50px;
     font-family: 'Amatic SC', cursive;
+    color: whitesmoke;
+    text-decoration: none;
 }
 
 
